@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(186, 215, 229);
+}
+#formHead{
+    color: rgb(65, 29, 29);
+    text-transform: uppercase;
+}
+
+form {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #5a2d2d;
+    border-radius: 10px;
+    width: 400px;
+    display: inline-block;
+    background: linear-gradient(45deg,rgb(236, 195, 195),rgb(163, 163, 206),rgb(150, 212, 226));
+    box-shadow: 5px 5px 5px  rgba(0,0,0,0.75);
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid rgb(58, 15, 15);
+    
+}
+
+th, td {
+    padding: 8px;
+}
+
+thead {
+   
+    background: linear-gradient(45deg,rgb(236, 195, 195),rgb(163, 163, 206),rgb(150, 212, 226));
+    
+}
+
+th {
+    text-align: left;
+}
+button:hover{
+    background-color: rgb(146, 96, 192);
+    color: white;
+}
